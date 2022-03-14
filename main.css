@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.anchor_nav {
+    padding: 30px 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anchor_logo {
+    width: 127px;
+    height: 25px;
+}
+
+.anchor_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.anchor_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anchor_list li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+
+.anchor_list li:not(:first-child) {
+    margin-left: 51px;
+}
+
+.anchor_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anchor_buttons button {
+    width: 154px;
+    height: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.anchor_login {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.anchor_start {
+    background-color: #000000;
+    border: none;
+    color: white;
+    margin-left: 8px;
+}
+
+.container {
+    background-color: #000000;
+    min-height: 751px;
+    height: 100%;
+    padding-left: 78px;
+    padding-right: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor_hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero_text {
+    width: 50%;
+}
+
+.hero_text h1 {
+    color: white;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 81.6px;
+}
+
+.hero_text p {
+    margin-top: 41px;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+.hero_text button {
+    margin-top: 74px;
+    width: 188px;
+    height: 65px;
+    padding: 20px 35px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.hero_text button a {
+    color: #F5821E;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 13px;
+}
+
+.hero_img {
+    width: 50%;
+}
+
+/* .hero_img img {
+    width: 100%;
+} */
+
+.anchor_partners {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.anchor_img {
+    position: absolute;
+    left: 0;
+    top: -58px;
+    z-index: -50;
+}
+
+.anchor_partners p {
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    opacity: 0.8;
+}
+
+.partner_logo {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: -ms-grid-columns;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    align-items: center;
+    row-gap: 4rem;
+
+}
+
+.partner_logo div {
+    margin: auto;
+}
+
+.outpost {
+    width: 160.93px;
+    height: 40px;
+}
+
+.outpost img {
+    width: 100%;
+    height: 100%;
+}
+
+.providus {
+    width: 182px;
+    height: 85px;
+}
+
+.providus img {
+    width: 100%;
+    height: 100%;
+}
+
+.partner {
+    width: 40.19px;
+    height: 50px;
+}
+
+.partner img {
+    width: 100%;
+    height: 100%;
+}
+
+.wema {
+    width: 90.37px;
+    height: 60px;
+}
+
+.wema img {
+    width: 100%;
+    height: 100%;
+}
+
+.penee {
+    width: 155.24px;
+    height: 40px;
+}
+
+.penee img {
+    width: 100%;
+    height: 100%;
+}
+
+.rex {
+    width: 188.33px;
+    height: 40px;
+}
+
+.rex img {
+    width: 100%;
+    height: 100%;
+}
+
+.curacel {
+    width: 190px;
+    height: 42px;
+}
+
+.curacel img {
+    width: 100%;
+    height: 100%;
+}
+
+.core {
+    width: 109.26px;
+    height: 40px;
+}
+
+.core img {
+    width: 100%;
+    height: 100%;
+}
+
+.p_logo {
+    width: 31.61px;
+    height: 40px;
+}
+
+.p_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.aza {
+    width: 86.82px;
+    height: 28.95px;
+}
+
+.aza img {
+    width: 100%;
+    height: 100%;
+}
+
+.anchor_solution {
+    background: #F2F2F2;
+    padding: 100px 78px;
+}
+
+.anchor_solution p {
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+.anchor_solution h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+
+.description {
+    font-size: 20px !important;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+
+.solution_img {
+    position: relative;
+    margin-top: 78px;
+    z-index: 50;
+}
+
+.dashboard {
+    width: 100%;
+}
+
+.second_anchor {
+    position: absolute;
+    right: -78px;
+    bottom: -20px;
+    z-index: -50;
+}
