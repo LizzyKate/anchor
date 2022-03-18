@@ -91,7 +91,7 @@
 .container {
     background-color: #000000;
     min-height: 751px;
-    height: 100%;
+    /* height: 100%; */
     padding-left: 78px;
     padding-right: 78px;
     display: flex;
@@ -366,7 +366,8 @@
     color: #333333;
 }
 
-.anchor_reason h3 {
+.anchor_reason h3,
+.anchor_access h4 {
     font-family: "satoshi-regular";
     font-weight: 400;
     font-size: 40px;
@@ -456,7 +457,7 @@
     margin-top: 100px;
 }
 
-.anchor_access h3 {
+.anchor_access h4 {
     max-width: 823px;
     width: 100%;
     margin-left: auto;
@@ -464,6 +465,7 @@
     line-height: 48px;
     font-family: "satoshi-medium";
     font-weight: 500;
+
 }
 
 .specific {
@@ -588,7 +590,7 @@
 }
 
 
-h3 {
+/* h3 {
     margin-top: 10px
 }
 
@@ -596,7 +598,7 @@ h3 {
 p {
     margin-top: 30px;
     margin-bottom: 0;
-}
+} */
 
 .owl-next {
     background: #3286f0;
@@ -974,4 +976,300 @@ p {
     color: white;
     letter-spacing: 0.32px;
     width: 766px;
+}
+
+@media screen and (max-width:990px) {
+    .anchor_nav {
+        padding: 20px;
+    }
+
+    .anchor_list {
+        display: none;
+    }
+
+    .anchor_buttons {
+        display: none;
+    }
+
+    .container {
+        padding: 20px !important;
+        display: block;
+        min-height: 100%;
+    }
+
+    .anchor_hero {
+        display: block;
+    }
+
+    .hero_text {
+        width: 100%;
+    }
+
+    .hero_text h1 {
+        font-size: 40px;
+        line-height: 52.6px;
+    }
+
+    .hero_text p {
+        font-size: 16px;
+    }
+
+    .hero_text button {
+        margin-top: 25px;
+        height: 55px;
+        width: 150px;
+        padding: 0 17px;
+    }
+
+    .hero_img {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .hero_img img {
+        width: 100%;
+    }
+
+    .anchor_partners {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .anchor_partners p {
+        font-size: 20px;
+    }
+
+    .partner_logo {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        row-gap: 1rem;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .partner_logo div {
+        width: 50px !important;
+    }
+
+    .partner_logo div img {
+        width: 100% !important;
+    }
+
+    .anchor_solution {
+        padding: 30px 20px;
+    }
+
+    .anchor_solution h2 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .second_anchor {
+        display: none;
+    }
+
+    .solution_img {
+        margin-top: 28px;
+    }
+
+    .anchor_reason {
+        padding: 20px;
+    }
+
+    .anchor_reason h3 {
+        margin: 20px 0;
+        font-size: 30px;
+    }
+
+    .anchor_user {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .anchor_feature {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        row-gap: 40px;
+    }
+
+    .feature_text h4 {
+        font-size: 20px;
+    }
+
+    .feature_text p {
+        font-size: 16px;
+    }
+
+    .anchor_access {
+        margin-top: 50px;
+    }
+
+    .anchor_access h4 {
+        font-size: 25px;
+        line-height: 40px;
+        margin: 14px 0;
+        max-width: 100%;
+    }
+
+    .anchor_slider {
+        padding: 20px;
+    }
+
+    .owl-carousel .owl-item {
+        width: 300px !important;
+        min-height: 530px !important;
+    }
+
+    .slider_container h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .slider_container p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 10px;
+        margin-bottom: 27px;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 40px !important;
+    }
+
+    .developer {
+        padding: 40px 20px;
+        display: block;
+    }
+
+    .developer_bank h4 {
+        font-size: 25px;
+    }
+
+    .developer_bank h4 span {
+        font-size: 18px;
+    }
+
+    .hook {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .line {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .developer_bank a {
+        font-size: 20px;
+    }
+
+    .developer a span {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .fintech {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .editor {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .anchor_future {
+        padding: 40px;
+    }
+
+    .anchor_future h4 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 38px;
+        margin: 15px auto;
+    }
+
+    .deep {
+        width: 100%;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .future_button {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .fingo {
+        width: 100%;
+    }
+
+    .fingo_button button {
+        font-size: 14px;
+    }
+
+    .fingo_button button:not(:first-child) {
+        margin-left: 10px;
+    }
+
+    .anchor_news {
+        padding: 20px 10px;
+        margin-top: 20px;
+    }
+
+    .fingo h5 {
+        font-size: 20px;
+    }
+
+    .fingo h5:not(:first-child) {
+        margin-top: 16px;
+    }
+
+    .fingo p {
+        font-size: 16px;
+    }
+
+    .expansion h5 {
+        width: 100%;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .expansion p {
+        width: 100%;
+        font-size: 16px;
+        margin: 10px auto 30.5px auto;
+    }
+
+    .expansion a {
+        font-size: 16px;
+    }
+
+    .anchor_footer {
+        padding: 40px 20px;
+    }
+
+    .footer_features {
+        display: block;
+    }
+
+    .policy:not(:first-child) {
+        margin-top: 60px;
+    }
+
+    .social_icons {
+        justify-content: flex-start;
+    }
+
+    .licence {
+        width: 100%;
+        margin-top: 40px;
+    }
 }
