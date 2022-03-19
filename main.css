@@ -104,6 +104,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    visibility: hidden;
 
 }
 
@@ -160,6 +162,7 @@
 
 .hero_img {
     width: 50%;
+    /* visibility: hidden; */
 }
 
 .hero_img img {
@@ -1009,7 +1012,7 @@ p {
 }
 
 .phone_img {
-    visibility: hidden;
+    /* visibility: hidden; */
     width: 50%;
     text-align: center;
 }
@@ -1019,7 +1022,7 @@ p {
 }
 
 .editor_code {
-    visibility: hidden;
+    /* visibility: hidden; */
     width: 590px;
     height: 374px;
     background: #151719;
@@ -1091,7 +1094,7 @@ p {
     }
 
     .hero_img {
-        visibility: hidden;
+
         width: 100%;
         margin-top: 24px;
     }
