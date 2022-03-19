@@ -1008,8 +1008,13 @@ p {
     width: 100%;
 }
 
+.phone_img {
+    width: 50%;
+    text-align: center;
+}
+
 .phone_img img {
-    width: 100%;
+    width: 50%;
 }
 
 .editor_code {
@@ -1026,6 +1031,21 @@ p {
 }
 
 @media screen and (max-width:990px) {
+    .editor_code {
+        width: 100%;
+        height: 200px;
+        margin-top: 24px;
+    }
+
+    .phone_img {
+        margin-top: 24px;
+        width: 100%;
+    }
+
+    .phone_img img {
+        width: 50%;
+    }
+
     .anchor_nav {
         padding: 20px;
     }
