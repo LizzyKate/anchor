@@ -162,9 +162,9 @@
     width: 50%;
 }
 
-/* .hero_img img {
+.hero_img img {
     width: 100%;
-} */
+}
 
 .anchor_partners {
     padding-top: 100px;
@@ -1009,6 +1009,7 @@ p {
 }
 
 .phone_img {
+    visibility: hidden;
     width: 50%;
     text-align: center;
 }
@@ -1018,6 +1019,7 @@ p {
 }
 
 .editor_code {
+    visibility: hidden;
     width: 590px;
     height: 374px;
     background: #151719;
