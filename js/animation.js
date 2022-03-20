@@ -28,3 +28,9 @@ typewriter.to(".first", { duration: 1, text: ". container {" })
 window.addEventListener("load", function (event) {
     init()
 })
+
+const typing = gsap.timeline({ defaults: { repeat: -1, repeatDelay: 2 } })
+typing.to(".fifth", { duration: 1, text: ". container {" })
+    .to(".sixth", { duration: 1, text: " width: 590px;" })
+    .to(".seventh", { duration: 1, text: " height: 374px;" })
+    .to(".eighth", { duration: 1, text: " }" })

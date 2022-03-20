@@ -22,21 +22,26 @@
         <div class="anchor_logo">
             <img src="/assets/images/logo.svg" alt="Anchor Logo">
         </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
         <ul class="anchor_list">
             <li>
-                <a href="#">Why Anchor</a>
+                <a href="#reason">Why Anchor</a>
             </li>
             <li>
-                <a href="#">Products</a>
+                <a href="#products">Products</a>
             </li>
             <li>
-                <a href="#">Developers</a>
+                <a href="#developers">Developers</a>
             </li>
             <li>
-                <a href="#">Use Case</a>
+                <a href="#use-case">Use Case</a>
             </li>
             <li>
-                <a href="#">Company</a>
+                <a href="#footer">Company</a>
             </li>
         </ul>
         <div class="anchor_buttons">
@@ -132,7 +137,7 @@
     </section>
 
     <!-- reason -->
-    <section class="anchor_reason">
+    <section class="anchor_reason" id="reason">
         <p class="why_anchor">Why anchor</p>
         <h3>Ship new financial products faster</h3>
         <p class="anchor_user">Delight your users and grow revenues by offering tailored banking products to your retail
@@ -208,7 +213,7 @@
     </section>
 
     <!-- slider -->
-    <section class="anchor_slider">
+    <section class="anchor_slider" id="products">
         <div class="owl-carousel owl-theme">
             <div class="item">
                 <div class="slider_img">
@@ -296,7 +301,7 @@
     </section>
 
     <!-- developer experience -->
-    <section class="developer">
+    <section class="developer" id="developers">
         <div class="developer_bank">
             <p class="experience">Developer experience</p>
             <h4>Banking for developers, <span>by developers</span></h4>
@@ -308,12 +313,21 @@
             <p class="fintech">No fintech experience required</p>
         </div>
         <div class="editor">
-            <img src="/assets/images/editor.png" alt="">
+            <div class="green_editor">
+                <p class="fifth __type"></p>
+                <p class="sixth __type"></p>
+                <p class="seventh __type"></p>
+                <p class="eighth __type"></p>
+            </div>
+            <div>
+                <img src="/assets/images/editor.png" alt="">
+            </div>
+            <!-- <img src="/assets/images/editor.png" alt=""> -->
         </div>
     </section>
 
     <!-- future -->
-    <section class="anchor_future">
+    <section class="anchor_future" id="use-case">
         <p class="case">Use Case</p>
         <h4>Build the future of financial services with Anchor</h4>
         <p class="deep">Our deep understanding of financial systems, processes and regulations along with strong banking
@@ -359,7 +373,7 @@
     </section>
 
     <!-- footer -->
-    <section class="anchor_footer">
+    <section class="anchor_footer" id="footer">
         <div class="footer_features">
             <div class="policy">
                 <h6>Developer</h6>
@@ -465,6 +479,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" crossorigin="anonymous"></script>'<script
     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js" crossorigin="anonymous"></script>'
 <script src="/js/animation.js"></script>
+<script src="/js/nav.js"></script>
 <script>
     $(document).ready(function () {
         $('.owl-carousel').owlCarousel({
@@ -495,5 +510,6 @@
         })
     })
 </script>
+
 
 </html>
