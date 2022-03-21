@@ -20,10 +20,27 @@ function init() {
 }
 
 const typewriter = gsap.timeline({ repeat: -1, repeatDelay: 1, delay: 2 })
-typewriter.to(".first", { duration: 1, text: ". container {" })
-    .to(".second", { duration: 1, text: " width: 590px;" })
-    .to(".third", { duration: 1, text: " height: 374px;" })
-    .to(".fourth", { duration: 1, text: " }" })
+typewriter.to(".first", { duration: 0.1, text: "import java.net.MalformedURLException;" })
+    .to(".second", { duration: 0.1, text: " import java.net.URL;" })
+    .to(".third", { duration: 0.1, text: " import co.getanchor.myposcheckout.ipc.Config;" })
+    .to(".fourth", { duration: 0.1, text: " import co.getanchor.checkout.ipc.IPCException;" })
+    .to(".ninth", { duration: 0.1, text: " // ..." })
+    .to(".tenth", { duration: 0.1, text: " Config cnf = new Config();" })
+    .to(".tenths", { duration: 0.1, text: " URL ipcApiUrl = null;" })
+    .to(".eleventh", { duration: 0.1, text: " import co.getanchor.checkout.ipc.IPCException;" })
+    .to(".twelvth", { duration: 0.1, text: "try {" })
+    .to(".thirteenth", { duration: 0.1, text: " ipcApiUrl = new URL('https://getanchor.co/vmp/');" })
+    .to(".fourteenth", { duration: 0.1, text: " } catch (MalformedURLException ex) {" })
+    .to(".fifteenth", { duration: 0.1, text: " // Handle the malformed URL exception" })
+    .to(".sixteenth", { duration: 0.1, text: " }" })
+    .to(".seventeenth", { duration: 0.1, text: " cnf.setIpcUrl(ipcApiUrl);" })
+    .to(".eighteenth", { duration: 0.1, text: " cnf.setLang('en');" })
+    .to(".nineteenth", { duration: 0.1, text: "cnf.loadPrivateKeyFromFile('path_to_directory/storePrivateKey.pem'); // Replace `path_to_directory` with the actual file path" })
+    .to(".twentieth", { duration: 0.1, text: " cnf.loadPublicKeyFromFile('path_to_directory/apiPublicKey.pem'); // Replace `path_to_directory` with the actual file path" })
+    .to(".twenty-one", { duration: 0.1, text: " cnf.setKeyIndex(1);" })
+    .to(".twenty-two", { duration: 0.1, text: " cnf.setSid('000000000000010');" })
+    .to(".twenty-three", { duration: 0.1, text: " cnf.setVersion('1.3');" })
+    .to(".twenty-four", { duration: 0.1, text: " cnf.setWalletNumber('61938166610');;" })
 
 window.addEventListener("load", function (event) {
     init()
@@ -32,7 +49,7 @@ window.addEventListener("load", function (event) {
 
 const typing = gsap.timeline({ repeat: -1, repeatDelay: 2 })
 
-typing.to(".fifth", { duration: 1, text: ". container {" })
-    .to(".sixth", { duration: 1, text: " width: 590px;" })
-    .to(".seventh", { duration: 1, text: " height: 374px;" })
-    .to(".eighth", { duration: 1, text: " }" })
+typing.to(".fifth", { duration: 1, text: "import java.net.MalformedURLException;" })
+    .to(".sixth", { duration: 1, text: " import java.net.URL;" })
+    .to(".seventh", { duration: 1, text: " import co.getanchor.myposcheckout.ipc.Config;" })
+    .to(".eighth", { duration: 1, text: " import co.getanchor.checkout.ipc.IPCException;" })

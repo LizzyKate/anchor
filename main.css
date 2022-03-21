@@ -103,8 +103,8 @@ body {
 
 .container {
     background-color: #000000;
-    max-height: 751px;
-    height: 100%;
+    height: 751px;
+    /* height: 100%; */
     padding-left: 78px;
     padding-right: 78px;
     display: flex;
@@ -178,11 +178,13 @@ body {
 
 .hero_img {
     width: 50%;
+    text-align: center;
     /* visibility: hidden; */
 }
 
 .hero_img img {
-    width: 100%;
+    width: 75%;
+
 }
 
 .anchor_partners {
@@ -388,8 +390,8 @@ body {
 
 .anchor_reason h3,
 .anchor_access h4 {
-    font-family: "satoshi-regular";
-    font-weight: 400;
+    font-family: "satoshi-medium";
+    font-weight: 500;
     font-size: 40px;
     margin: 30px 0;
     color: #333333;
@@ -541,8 +543,8 @@ body {
 }
 
 .slider_container h4 {
-    font-family: 'satoshi-regular';
-    font-weight: 400;
+    font-family: 'satoshi-medium';
+    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     letter-spacing: 0.48px;
@@ -643,9 +645,12 @@ p {
     color: black;
 }
 
-.developer {
+.cover {
     background: black;
     padding: 100px 78px;
+}
+
+.developer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -1040,7 +1045,7 @@ p {
 .editor_code {
     visibility: hidden;
     width: 590px;
-    height: 374px;
+    height: 450px;
     background: #151719;
     opacity: 1;
     border-radius: 20px;
@@ -1049,7 +1054,7 @@ p {
 
 .text_type {
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'satoshi-regular';
 }
 
@@ -1286,19 +1291,19 @@ nav {
     }
 
     .text_type {
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .editor_code {
         width: 100%;
-        height: 230px;
+        height: 321px;
         margin-top: 24px;
     }
 
     .phone_img {
         margin-top: 24px;
         width: 100%;
-        height: 215px;
+        height: 309px;
 
     }
 
@@ -1330,8 +1335,7 @@ nav {
     .container {
         padding: 20px !important;
         display: block;
-        max-height: 756px;
-        height: 100%;
+        /* height: 1000px; */
     }
 
     .anchor_hero {
@@ -1610,5 +1614,28 @@ nav {
     .licence {
         width: 100%;
         margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+
+
+    .anchor_nav,
+    .container,
+    .partner_logo,
+    .solution_img,
+    .anchor_feature,
+    .anchor_slider,
+    .developer,
+    .anchor_news,
+    .cover-two {
+        max-width: 1500px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .anchor_nav {
+        left: 0;
+        right: 0;
     }
 }
