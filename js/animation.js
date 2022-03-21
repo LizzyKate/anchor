@@ -40,7 +40,7 @@ typewriter.to(".first", { duration: 0.1, text: "import java.net.MalformedURLExce
     .to(".twenty-one", { duration: 0.1, text: " cnf.setKeyIndex(1);" })
     .to(".twenty-two", { duration: 0.1, text: " cnf.setSid('000000000000010');" })
     .to(".twenty-three", { duration: 0.1, text: " cnf.setVersion('1.3');" })
-    .to(".twenty-four", { duration: 0.1, text: " cnf.setWalletNumber('61938166610');;" })
+    .to(".twenty-four", { duration: 0.1, text: " cnf.setWalletNumber('61938166610');" })
 
 window.addEventListener("load", function (event) {
     init()
@@ -49,7 +49,19 @@ window.addEventListener("load", function (event) {
 
 const typing = gsap.timeline({ repeat: -1, repeatDelay: 2 })
 
-typing.to(".fifth", { duration: 1, text: "import java.net.MalformedURLException;" })
-    .to(".sixth", { duration: 1, text: " import java.net.URL;" })
-    .to(".seventh", { duration: 1, text: " import co.getanchor.myposcheckout.ipc.Config;" })
-    .to(".eighth", { duration: 1, text: " import co.getanchor.checkout.ipc.IPCException;" })
+typing.to(".fifth", { duration: 0.26, text: "import java.net.MalformedURLException;" })
+    .to(".sixth", { duration: 0.26, text: " import java.net.URL;" })
+    .to(".seventh", { duration: 0.26, text: " import co.getanchor.myposcheckout.ipc.Config;" })
+    .to(".eighth", { duration: 0.26, text: " import co.getanchor.checkout.ipc.IPCException;" })
+    .to(".twenty-five", { duration: 0.26, text: " // ..." })
+    .to(".twenty-six", { duration: 0.26, text: " Config cnf = new Config();" })
+    .to(".twenty-seven", { duration: 0.26, text: "  URL ipcApiUrl = null;" })
+    .to(".twenty-eight", { duration: 0.26, text: " import co.getanchor.checkout.ipc.IPCException;" })
+    .to(".twenty-nine", { duration: 0.26, text: " try {" })
+    .to(".thirty", { duration: 0.26, text: " ipcApiUrl = new URL('https://getanchor.co/vmp/');" })
+    .to(".thirty-one", { duration: 0.26, text: " } catch (MalformedURLException ex) {" })
+    .to(".thirty-two", { duration: 0.26, text: " // Handle the malformed URL exception" })
+    .to(".thirty-three", { duration: 0.26, text: " }" })
+    .to(".thirty-four", { duration: 0.26, text: " cnf.setIpcUrl(ipcApiUrl);" })
+    .to(".thirty-five", { duration: 0.26, text: " cnf.setLang('en');" })
+
