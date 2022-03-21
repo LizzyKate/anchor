@@ -1069,7 +1069,7 @@ p {
 
 .__type {
     color: #333333;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'satoshi-regular';
 }
 
@@ -1287,7 +1287,7 @@ nav {
     }
 
     .__type {
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .text_type {
