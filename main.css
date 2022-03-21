@@ -1484,7 +1484,7 @@ nav {
     }
 
     .developer {
-        padding: 40px 20px;
+
         display: block;
     }
 
@@ -1614,6 +1614,10 @@ nav {
     .licence {
         width: 100%;
         margin-top: 40px;
+    }
+
+    .cover {
+        padding: 40px 20px;
     }
 }
 
