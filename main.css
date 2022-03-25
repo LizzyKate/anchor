@@ -1208,6 +1208,16 @@ nav {
     color: red;
 }
 
+.saving img {
+    width: 54% !important;
+}
+
+.saving {}
+
+.credit img {
+    width: 80% !important;
+}
+
 @media screen and (max-width:990px) {
     /* nav {
         position: fixed;
