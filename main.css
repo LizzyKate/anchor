@@ -131,7 +131,7 @@ body {
 
 .hero_text h1 {
     color: white;
-    font-size: 68px;
+    font-size: 63px;
     font-weight: 400;
     line-height: 81.6px;
     font-family: 'satoshi-regular';
@@ -179,6 +179,9 @@ body {
 .hero_img {
     width: 50%;
     text-align: center;
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
     /* visibility: hidden; */
 }
 
@@ -718,6 +721,9 @@ p {
 
 .editor {
     width: 50%;
+    --tw-space-x-reverse: 0;
+    margin-right: calc(3rem * var(--tw-space-x-reverse));
+    margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .editor img {
@@ -800,10 +806,12 @@ p {
 
 .phone {
     width: 40%;
+
 }
 
 .phone img {
     width: 100%;
+
 }
 
 .fingo {
@@ -1045,10 +1053,13 @@ p {
 
 .editor_code {
     visibility: hidden;
-    width: 590px;
+    width: 40%;
     /* height: 450px; */
     /* background: #151719; */
     opacity: 1;
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
     /* border-radius: 20px; */
     /* padding: 30px 30px; */
 }
