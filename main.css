@@ -289,7 +289,8 @@ body {
 
 .curacel {
     width: 190px;
-    height: 42px;
+    height: 30px;
+    margin-top: 10px !important;
 }
 
 .curacel img {
@@ -441,8 +442,8 @@ body {
 
 .feature_text h4 {
     font-size: 23px;
-    font-family: "satoshi-regular";
-    font-weight: 400;
+    font-family: "satoshi-medium";
+    font-weight: 500;
     color: #333333;
 }
 
@@ -1045,11 +1046,15 @@ p {
 .editor_code {
     visibility: hidden;
     width: 590px;
-    height: 450px;
-    background: #151719;
+    /* height: 450px; */
+    /* background: #151719; */
     opacity: 1;
-    border-radius: 20px;
-    padding: 30px 30px;
+    /* border-radius: 20px; */
+    /* padding: 30px 30px; */
+}
+
+.editor_code img {
+    width: 100%;
 }
 
 .text_type {
@@ -1197,6 +1202,10 @@ nav {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.new_fifth {
+    color: red;
 }
 
 @media screen and (max-width:990px) {
@@ -1619,10 +1628,13 @@ nav {
     .cover {
         padding: 40px 20px;
     }
+
+    .curacel {
+        margin-top: 6px !important;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
-
 
     .anchor_nav,
     .container,
